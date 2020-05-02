@@ -5,4 +5,5 @@ include 'food-processor'
 include 'snakesandladders'
 include 'parking-lot'
 include 'sparkprocessing'
+include 'splitwise'
 
