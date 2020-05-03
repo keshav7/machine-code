@@ -57,7 +57,8 @@ public class QueueConsumer {
     List<Team> teams = teamService.getTeams();
     for (Team team : teams) {
       if (team.getPlayers().contains(player)) {
-             team.setPoints(team.getPoints() + getPoints(event));
+        team.setPoints(team.getPoints() + getPoints(event));
+        System.out.println("team :" + team.getId() + " points :" + team.getPoints());
       }
     }
 

@@ -22,7 +22,7 @@ public class TeamServiceImpl implements TeamService {
 
     Team team = new Team();
     team.setUser(list.get(0));
-    team.setPlayers(Arrays.asList(list.get(1).split("\\s")));
+    team.setPlayers(Arrays.asList(list.get(1).split(",")));
 
     team.setId(UUID.randomUUID().toString());
 
