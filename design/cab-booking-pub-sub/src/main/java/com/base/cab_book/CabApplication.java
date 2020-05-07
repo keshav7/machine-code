@@ -16,11 +16,6 @@ public class CabApplication {
     ManagerService managerService = (ManagerService) ctx.getBean("managerServiceImpl");
 
     managerService.initialise();
-    //Arrays.sort(beanNames);
-    //
-    //for (String beanName : beanNames) {
-    //  System.out.println(beanName);
-    //}
 
 
   }
