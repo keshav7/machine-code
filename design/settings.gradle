@@ -9,4 +9,6 @@ include 'splitwise'
 include 'dream11'
 include 'cab-booking-pub-sub'
 include 'movie-booking'
+include 'call-aggregator'
+findProject(':call-aggregator')?.name = 'CallAggregator'
 
