@@ -17,7 +17,7 @@ public class SpringBootDemoApplication {
     String[] beanNames = ctx.getBeanDefinitionNames();
     ExpenseService expenseService = (ExpenseService) ctx.getBean("expenseServiceImpl");
 
-    expenseService.addExpense();
+    //expenseService.addExpense();
     Arrays.sort(beanNames);
 
     for (String beanName : beanNames) {

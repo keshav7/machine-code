@@ -1,0 +1,21 @@
+package com.base.cabby.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class Trip {
+
+  String id;
+  String cabRegNumber;
+  String src;
+  String dest;
+  TripStatus tripStatus;
+  String requestId;
+
+}
