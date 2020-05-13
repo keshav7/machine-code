@@ -12,4 +12,5 @@ include 'movie-booking'
 include 'call-aggregator'
 findProject(':call-aggregator')?.name = 'CallAggregator'
 include 'cab-booking-real'
+include 'sprint'
 

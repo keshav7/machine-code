@@ -14,4 +14,6 @@ public interface TripService {
 
   List<Trip> searchTrip(TripSearchRequest request);
 
+  List<Trip> getTrips();
+
 }

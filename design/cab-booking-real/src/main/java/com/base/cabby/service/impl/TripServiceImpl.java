@@ -49,4 +49,9 @@ public class TripServiceImpl implements TripService {
     }
     return tripResult;
   }
+
+  @Override
+  public List<Trip> getTrips() {
+    return trips;  // TODO impl
+  }
 }
