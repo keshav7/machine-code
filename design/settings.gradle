@@ -24,4 +24,6 @@ include 'systemdesign:yelp'
 findProject(':systemdesign:yelp')?.name = 'yelp'
 include 'systemdesign:googlesearchengine'
 findProject(':systemdesign:googlesearchengine')?.name = 'googlesearchengine'
+include 'systemdesign:api-ratelimter'
+findProject(':systemdesign:api-ratelimter')?.name = 'api-ratelimter'
 
