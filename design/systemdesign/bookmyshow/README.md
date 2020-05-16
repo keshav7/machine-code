@@ -25,13 +25,14 @@ name
 type
 }
 `
+
 2. show
 
 `
 {
 id
-cinema_id,
-movie_id,
+cinema_id
+movie_id
 start_time
 }
 `
@@ -40,15 +41,15 @@ start_time
 
 `
 {
-id,
-user_id,
+id
+user_id
 created_at,
 show_id
 ttl
 status [created/expired/reserved]
 
-}
-`
+}`
+
 
 4. reservation
 
@@ -57,8 +58,7 @@ status [created/expired/reserved]
 id
 booking_id
 cinema_seat_id
-}
-`
+}`
 
 
 ## APIs
