@@ -18,4 +18,6 @@ include 'pl'
 include 'systemdesign'
 include 'systemdesign:flash_sale'
 findProject(':systemdesign:flash_sale')?.name = 'flash_sale'
+include 'systemdesign:bookmyshow'
+findProject(':systemdesign:bookmyshow')?.name = 'bookmyshow'
 
