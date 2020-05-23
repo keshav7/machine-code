@@ -30,4 +30,5 @@ include 'systemdesign:cabbooking'
 findProject(':systemdesign:cabbooking')?.name = 'cabbooking'
 include 'systemdesign:twitterservice'
 findProject(':systemdesign:twitterservice')?.name = 'twitterservice'
+include 'bms'
 
